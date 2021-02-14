@@ -33,6 +33,19 @@ body {
 .flex-column {
   flex-direction: column;
   justify-content: center;
+  margin: 5%;
+}
+
+@media (min-width: 300px) {
+  .flex-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  .flex-item {
+    width: 30%;
+  }
 }
 
 header {
@@ -62,14 +75,33 @@ nav a {
 .sign-in {
   color: white;
   background-color: var(--blue);
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .sign-in:hover {
-  box-shadow: 1px 1px 1px 0px black;
+  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 
 img {
   width: fit-content;
+}
+
+input,
+button {
+  margin: 5%;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  width: 175px;
+  height: 30px;
 }
 
 footer {
