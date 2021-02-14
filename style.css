@@ -1,0 +1,49 @@
+:root {
+  --dark-gray: #1f1f1f;
+  --medium-gray: #525252;
+  --light-gray: #bfbfbf;
+  --blue: #1f7bf2;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-nav,
+.flex-footer {
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  color: var(--dark-gray);
+}
+
+.sign-in {
+  color: white;
+  background-color: var(--blue);
+}
+
+.sign-in:hover {
+  box-shadow: 1px 1px 1px 0px black;
+}
+
+img {
+  display: block;
+}
+
+footer {
+  background-color: var(--light-gray);
+}
+
+footer a {
+  color: var(--medium-gray);
+}
